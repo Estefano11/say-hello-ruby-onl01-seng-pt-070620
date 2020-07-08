@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require_relative './spec_helper'
 
 describe "say_hello" do 
@@ -11,4 +12,8 @@ describe "say_hello" do
     expect($stdout).to receive(:puts).with("Hello Ruby Programmer!")
     say_hello()
   end
+=======
+def greeting(name)
+  puts "Hello, #{name}"
+>>>>>>> 2f41a080842a98a8d30e1b3135f490690d30f3db
 end
